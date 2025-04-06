@@ -36,7 +36,7 @@ public class CoinCounterUI : MonoBehaviour
         current.SetText($"{score}");
         Vector3 localPosition = coinTextContainer.localPosition;
         coinTextContainer.localPosition = new Vector3(localPosition.x,
-   containerInitPosition, localPosition.z);
+            containerInitPosition, localPosition.z);
     }
 
 
